@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f60cb032-5c0f-4cf9-b8dd-1f81d6913c81",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38462721"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/users/reset_flag",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"num\":23\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/users/reset_flag",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"reset_flag"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

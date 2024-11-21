@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Компиляция в ESNext (или ES6)
+    "module": "ESNext", // Модули ESNext (использование import/export)
+    "moduleResolution": "node", // Как разрешать модули (для совместимости с Node.js)
+    "esModuleInterop": true, // Поддержка импорта CommonJS модулей в ES модулях
+    "experimentalDecorators": true, // Поддержка декораторов
+    "emitDecoratorMetadata": true, // Генерация метаданных для декораторов
+    "strictPropertyInitialization": false, 
+    "skipLibCheck": true, // Пропуск проверки типов в библиотеках
+    "outDir": "./dist", // Папка для скомпилированных файлов
+    "rootDir": "./src", // Исходная папка для исходников
+    "resolveJsonModule": true, // Поддержка импорта JSON файлов
+    "allowJs": true, // Разрешить компиляцию JavaScript файлов
+    "baseUrl": ".", // Указываем базовый путь для относительных путей
+    "paths": {
+      "*": ["src/*"] // Убедитесь, что пути корректно настроены для вашей структуры
+    }
+  },
+  "include": ["src/**/*.ts"], // Включаем все файлы в src
+  "exclude": ["node_modules", "dist"], // Исключаем node_modules и папку dist
+  "paths": {
+  "*": ["src/*"]
+}
+}
